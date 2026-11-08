@@ -98,7 +98,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jeonhokookjamg/CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA/main/patron-uaemex.jpg" width="150" alt="Patrón UAEMEX" />
+<img src="patron-uaemex.jpg" width="150" alt="Patrón UAEMEX" />
 
 ### Universidad Autónoma del Estado de México
 **Centro Universitario UAEMEX Valle de Chalco**
