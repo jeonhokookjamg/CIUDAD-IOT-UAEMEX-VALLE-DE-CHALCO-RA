@@ -9,7 +9,7 @@
 **Universidad Autónoma del Estado de México**  
 **Centro Universitario UAEMEX Valle de Chalco**
 
-[[CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA](https://img.shields.[STRIPPED 71 bytes]?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
+[[CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA - Ver proyecto](https://img.shields.io/badge/CIUDAD--IOT--UAEMEX--VALLE--DE--CHALCO--RA-Ver_proyecto-0B5A2E?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
 
 </div>
 
