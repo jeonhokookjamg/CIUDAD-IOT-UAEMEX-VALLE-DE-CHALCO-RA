@@ -1,31 +1,29 @@
-<div align="center">
-
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg" width="180" alt="Universidad Autónoma del Estado de México" />
+</p>
 
 # 🏙️ CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA
 
 ## Ciudad Inteligente + Realidad Aumentada (RA)
 
-**Universidad Autónoma del Estado de México**  
+**Universidad Autónoma del Estado de México**
 **Centro Universitario UAEMEX Valle de Chalco**
 
+<p align="center">
 <a href="https://uaemex-cux-cdmx-ia-ra.netlify.app"><img src="https://img.shields.io/badge/Ver_proyecto-0B5A2E?style=for-the-badge" alt="Ver proyecto"></a>
-
-</div>
+</p>
 
 > ### Ciudad inteligente UAEMEX Valle de Chalco: energía, movilidad, agua, residuos y alumbrado conectados por datos y sensores. La ciudad mide, entiende y responde en tiempo real. Con RA, ves cómo funciona en 3D frente a ti.
 
 ---
 
-<div align="center">
+## ✨ ¿QUÉ ES ESTE PROYECTO?
 
-| ✨ ¿QUÉ ES ESTE PROYECTO? |
-| :---: |
-| **Experiencia web, educativa e interactiva** que explica cómo funciona una **Ciudad Inteligente** usando **Realidad Aumentada (RA)** y modelos 3D. |
-| No es solo para leer: es para **recorrer, seleccionar, escuchar y visualizar** cada parte de la ciudad como si estuviera frente a ti. |
-| Para **estudiantes, docentes y visitantes** que quieren entender cómo la tecnología hace una ciudad más limpia, eficiente, segura y sustentable. |
+**Experiencia web, educativa e interactiva** que explica cómo funciona una **Ciudad Inteligente** usando **Realidad Aumentada (RA)** y modelos 3D.
 
-</div>
+No es solo para leer: es para **recorrer, seleccionar, escuchar y visualizar** cada parte de la ciudad como si estuviera frente a ti.
+
+Para **estudiantes, docentes y visitantes** que quieren entender cómo la tecnología hace una ciudad más limpia, eficiente, segura y sustentable.
 
 ---
 
@@ -91,16 +89,12 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 ## 🌱 Beneficios
 
-✅ Ahorra energía y agua | ✅ Reduce contaminación y ruido | ✅ Mejora la movilidad  
+✅ Ahorra energía y agua | ✅ Reduce contaminación y ruido | ✅ Mejora la movilidad
 ✅ Detecta fallas y fugas más rápido | ✅ Recolección y alumbrado más eficientes | ✅ Mejora la calidad de vida
 
 ---
-
-<div align="center">
 
 ### Universidad Autónoma del Estado de México
 **Centro Universitario UAEMEX Valle de Chalco**
 
 *Hecho para aprender, explorar y construir ciudades más inteligentes.*
-
-</div>
