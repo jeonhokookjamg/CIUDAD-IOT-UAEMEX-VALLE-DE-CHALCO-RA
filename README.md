@@ -2,7 +2,7 @@
 
 <img src="banner-ciudad-inteligente.png" width="100%" alt="Ciudad Inteligente + Realidad Aumentada - UAEMEX Valle de Chalco" />
 
-<img src="escudo-uaemex.jpg" width="180" alt="Universidad Autónoma del Estado de México" />
+<img src="University_Emblem_Logo" width="180" alt="Universidad Autónoma del Estado de México" />
 
 # 🏙️ CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA
 
@@ -11,7 +11,7 @@
 **Universidad Autónoma del Estado de México**  
 **Centro Universitario UAEMEX Valle de Chalco**
 
-[[CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA](https://img.shields.[STRIPPED 71 bytes]?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
+[![CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA](https://img.shields.[STRIPPED 71 bytes]?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
 
 </div>
 
@@ -100,7 +100,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 <div align="center">
 
-<img src="patron-uaemex.jpg" width="150" alt="Patrón UAEMEX" />
+<img src="Interlocking_Geometric_Flower_Pattern" width="150" alt="Patrón UAEMEX" />
 
 ### Universidad Autónoma del Estado de México
 **Centro Universitario UAEMEX Valle de Chalco**
