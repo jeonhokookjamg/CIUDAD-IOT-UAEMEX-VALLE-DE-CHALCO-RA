@@ -9,7 +9,7 @@
 **Universidad Autónoma del Estado de México**  
 **Centro Universitario UAEMEX Valle de Chalco**
 
-[[Ver proyecto](https://img.shields.io/badge/Ver_proyecto-0B5A2E?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
+<a href="https://uaemex-cux-cdmx-ia-ra.netlify.app"><img src="https://img.shields.io/badge/Ver_proyecto-0B5A2E?style=for-the-badge" alt="Ver proyecto"></a>
 
 </div>
 
@@ -98,7 +98,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.[STRIPPED 74 bytes].jpg" width="150" alt="Patrón UAEMEX" />
+<img src="https://raw.githubusercontent.com/jeonhokookjamg/CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA/main/patron-uaemex.jpg" width="150" alt="Patrón UAEMEX" />
 
 ### Universidad Autónoma del Estado de México
 **Centro Universitario UAEMEX Valle de Chalco**
