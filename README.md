@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg" width="180" alt="Universidad Autónoma del Estado de México" />
+
 # 🏙️ CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA
 
 ## Ciudad Inteligente + Realidad Aumentada (RA)
@@ -84,4 +86,23 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 | :--- | :--- |
 | **HTML / CSS / JavaScript** | Estructura, diseño e interacción |
 | **A-Frame + AR.js** | Realidad aumentada con marcador y 3D en el navegador |
-| **Modelos 3D** | Represent
+| **Modelos 3D** | Representación visual de cada escenario |
+| **Voz / narración** | Explicación hablada de cada escenario |
+
+## 🌱 Beneficios
+
+✅ Ahorra energía y agua | ✅ Reduce contaminación y ruido | ✅ Mejora la movilidad  
+✅ Detecta fallas y fugas más rápido | ✅ Recolección y alumbrado más eficientes | ✅ Mejora la calidad de vida
+
+---
+
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg" width="100" alt="UAEMEX" />
+
+### Universidad Autónoma del Estado de México
+**Centro Universitario UAEMEX Valle de Chalco**
+
+*Hecho para aprender, explorar y construir ciudades más inteligentes.*
+
+</div>
