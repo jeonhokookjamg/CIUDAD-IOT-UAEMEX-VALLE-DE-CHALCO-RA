@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="banner-ciudad-inteligente.png" width="100%" alt="Ciudad Inteligente + Realidad Aumentada - UAEMEX Valle de Chalco" />
-
-<img src="University_Emblem_Logo" width="180" alt="Universidad Autónoma del Estado de México" />
-
 # 🏙️ CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA
 
 ## Ciudad Inteligente + Realidad Aumentada (RA)
@@ -11,7 +7,7 @@
 **Universidad Autónoma del Estado de México**  
 **Centro Universitario UAEMEX Valle de Chalco**
 
-[![CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA](https://img.shields.[STRIPPED 71 bytes]?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
+[[CIUDAD-IOT-UAEMEX-VALLE-DE-CHALCO-RA](https://img.shields.io/badge/CIUDAD--IOT--UAEMEX--VALLE--DE--CHALCO--RA-Ver_proyecto-0B5A2E?style=for-the-badge)](https://uaemex-cux-cdmx-ia-ra.netlify.app)
 
 </div>
 
@@ -88,23 +84,4 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 | :--- | :--- |
 | **HTML / CSS / JavaScript** | Estructura, diseño e interacción |
 | **A-Frame + AR.js** | Realidad aumentada con marcador y 3D en el navegador |
-| **Modelos 3D** | Representación visual de cada escenario |
-| **Voz / narración** | Explicación hablada de cada escenario |
-
-## 🌱 Beneficios
-
-✅ Ahorra energía y agua | ✅ Reduce contaminación y ruido | ✅ Mejora la movilidad  
-✅ Detecta fallas y fugas más rápido | ✅ Recolección y alumbrado más eficientes | ✅ Mejora la calidad de vida
-
----
-
-<div align="center">
-
-<img src="Interlocking_Geometric_Flower_Pattern" width="150" alt="Patrón UAEMEX" />
-
-### Universidad Autónoma del Estado de México
-**Centro Universitario UAEMEX Valle de Chalco**
-
-*Hecho para aprender, explorar y construir ciudades más inteligentes.*
-
-</div>
+| **Modelos 3D** | Represent
