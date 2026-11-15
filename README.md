@@ -12,13 +12,13 @@
 <p align="center">
 <a href="https://uaemex-cux-cdmx-ia-ra.netlify.app"><img src="https://img.shields.io/badge/Ver_proyecto-0B5A2E?style=for-the-badge" alt="Ver proyecto"></a>
 </p>
-<p align="center"><img src="assets/ciudad.gif" width="560" style="max-width:100%;border-radius:12px;" alt="Ciudad Inteligente en movimiento" /></p>
+<p align="center"><img src="assets/edificio.gif" width="520" style="max-width:100%;border-radius:12px;" alt="Edificio inteligente en movimiento" /></p>
 
 > ### Ciudad inteligente UAEMEX Valle de Chalco: energía, movilidad, agua, residuos y alumbrado conectados por datos y sensores. La ciudad mide, entiende y responde en tiempo real. Con RA, ves cómo funciona en 3D frente a ti.
 
 ---
 
-## ✨ ¿QUÉ ES ESTE PROYECTO?
+<p align="center"><img src="assets/banner-proyecto.svg" width="100%" alt="¿Qué es este proyecto?" /></p>
 
 **Experiencia web, educativa e interactiva** que explica cómo funciona una **Ciudad Inteligente** usando **Realidad Aumentada (RA)** y modelos 3D.
 
@@ -28,7 +28,7 @@ Para **estudiantes, docentes y visitantes** que quieren entender cómo la tecnol
 
 ---
 
-## 🏙️ ¿Qué es una Ciudad Inteligente?
+<p align="center"><img src="assets/banner-ciudad-inteligente.svg" width="100%" alt="¿Qué es una Ciudad Inteligente?" /></p>
 
 Una Ciudad Inteligente es un sistema urbano donde la energía, la movilidad, el agua, los residuos y el alumbrado **no funcionan por separado**, sino conectados por:
 
@@ -42,7 +42,7 @@ Una Ciudad Inteligente es un sistema urbano donde la energía, la movilidad, el 
 ### 🔄 El ciclo de una ciudad inteligente
 
 | Paso | Acción |
-| :---: | :--- |
+| :---: | :---: |
 | **1. SENTIR** | Los sensores miden lo que pasa en la ciudad |
 | **2. CONECTAR** | Los datos viajan por la red |
 | **3. ENTENDER** | El sistema analiza patrones, fallas o desperdicio |
@@ -51,7 +51,7 @@ Una Ciudad Inteligente es un sistema urbano donde la energía, la movilidad, el 
 
 ---
 
-## 🥽 ¿Qué es la Realidad Aumentada (RA)?
+<p align="center"><img src="assets/banner-ra.svg" width="100%" alt="¿Qué es la Realidad Aumentada (RA)?" /></p>
 
 La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usando la cámara de tu celular o computadora.
 
@@ -62,7 +62,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 ---
 
-## 🗺️ Los 10 escenarios de la ciudad
+<p align="center"><img src="assets/banner-escenarios.svg" width="100%" alt="Los 10 escenarios de la ciudad" /></p>
 
 | # | Escenario | ¿Qué hace? |
 | :---: | :--- | :--- |
@@ -79,7 +79,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 
 ---
 
-## 🛠️ Tecnologías
+<p align="center"><img src="assets/banner-tecnologias.svg" width="100%" alt="Tecnologías" /></p>
 
 | Tecnología | Uso |
 | :--- | :--- |
@@ -88,7 +88,7 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 | **Modelos 3D** | Representación visual de cada escenario |
 | **Voz / narración** | Explicación hablada de cada escenario |
 
-## 🌱 Beneficios
+<p align="center"><img src="assets/banner-beneficios.svg" width="100%" alt="Beneficios" /></p>
 
 ✅ Ahorra energía y agua | ✅ Reduce contaminación y ruido | ✅ Mejora la movilidad
 ✅ Detecta fallas y fugas más rápido | ✅ Recolección y alumbrado más eficientes | ✅ Mejora la calidad de vida
@@ -99,3 +99,5 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 **Centro Universitario UAEMEX Valle de Chalco**
 
 *Hecho para aprender, explorar y construir ciudades más inteligentes.*
+
+<p align="center"><img src="assets/flor.png" width="170" alt="Flor · UAEMEX Valle de Chalco" /></p>
