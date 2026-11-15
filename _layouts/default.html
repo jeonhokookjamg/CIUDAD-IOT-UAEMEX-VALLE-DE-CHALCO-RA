@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0369a1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .fig-viva { position: fixed; z-index: 9998; pointer-events: none; line-height: 1; }
+      #pet { position: fixed; z-index: 9999; pointer-events: none; font-size: 44px; left: 10px; top: 70%; transition: left 3.2s ease-in-out, top 3.2s ease-in-out; animation: petBounce 0.9s ease-in-out infinite alternate; }
+      @keyframes petBounce { from { margin-top: 0; } to { margin-top: -8px; } }
+      #bus { bottom: 6px; left: 0; font-size: 40px; animation: drive 24s linear infinite; }
+      @keyframes drive { from { transform: translateX(-15vw); } to { transform: translateX(112vw); } }
+      #sol { top: 84px; right: 14px; font-size: 34px; animation: spin3d 7s linear infinite; }
+      @keyframes spin3d { from { transform: rotateY(0deg); } to { transform: rotateY(360deg); } }
+      #gota { top: 45%; left: 8px; font-size: 28px; animation: bob 3.4s ease-in-out infinite alternate; }
+      #rayo { top: 30%; right: 10px; font-size: 28px; animation: bob 2.8s ease-in-out infinite alternate-reverse; }
+      @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-14px); } }
+      @media (prefers-reduced-motion: reduce) { .fig-viva, #pet { display: none; } }
+    </style>
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title and site.github.is_project_page %}
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+      {{ content }}
+    </div>
+    <div id="pet" aria-hidden="true">🤖</div>
+    <div id="bus" class="fig-viva" aria-hidden="true">🚌</div>
+    <div id="sol" class="fig-viva" aria-hidden="true">☀️</div>
+    <div id="gota" class="fig-viva" aria-hidden="true">💧</div>
+    <div id="rayo" class="fig-viva" aria-hidden="true">⚡</div>
+    <script>
+      (function () {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var pet = document.getElementById('pet');
+        if (!pet) return;
+        function wander() {
+          var x = Math.random() * (window.innerWidth - 70);
+          var y = Math.random() * (window.innerHeight - 90);
+          var cur = parseFloat(pet.style.left) || 10;
+          pet.style.transform = x < cur ? 'scaleX(-1)' : 'scaleX(1)';
+          pet.style.left = x + 'px';
+          pet.style.top = y + 'px';
+          setTimeout(wander, 3400 + Math.random() * 2200);
+        }
+        setTimeout(wander, 600);
+      })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
