@@ -77,6 +77,18 @@ La Realidad Aumentada **superpone objetos digitales 3D sobre el mundo real** usa
 | **08** | **Residuos inteligentes** | Contenedores separados por tipo con sensores de llenado. Recolección solo cuando se necesita |
 | **09** | **Alumbrado inteligente** | LED que ajustan intensidad según luz natural y presencia de personas |
 
+<p align="center"><img src="assets/solar.gif" width="440" style="max-width:100%;border-radius:12px;" alt="Energía solar en movimiento" /></p>
+
+<p align="center"><strong>☀️ Energía solar</strong></p>
+
+<p align="center"><img src="assets/movilidad.gif" width="440" style="max-width:100%;border-radius:12px;" alt="Movilidad eléctrica en movimiento" /></p>
+
+<p align="center"><strong>🚌 Movilidad eléctrica</strong></p>
+
+<p align="center"><img src="assets/agua.gif" width="440" style="max-width:100%;border-radius:12px;" alt="Agua inteligente en movimiento" /></p>
+
+<p align="center"><strong>💧 Agua inteligente</strong></p>
+
 ---
 
 <p align="center"><img src="assets/banner-tecnologias.svg" width="100%" alt="Tecnologías" /></p>
