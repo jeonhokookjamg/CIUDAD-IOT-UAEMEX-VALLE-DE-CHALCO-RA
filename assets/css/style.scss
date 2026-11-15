@@ -46,6 +46,46 @@
   animation: floaty 3.5s ease-in-out infinite alternate;
 }
 
+/* Animación viva y continua: las letras y los banners se mueven todo el tiempo */
+@keyframes shineMove {
+  to { background-position: 300% 0; }
+}
+@keyframes pulseZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.025); }
+}
+@keyframes sway {
+  from { transform: rotate(-4deg); }
+  to { transform: rotate(4deg); }
+}
+@keyframes borderPulse {
+  from { border-left-color: #0369a1; }
+  to { border-left-color: #10b981; }
+}
+
+.markdown-body img[src*="banner"] {
+  animation: pulseZoom 3s ease-in-out infinite alternate;
+}
+
+.markdown-body img[src*="flor"] {
+  animation: sway 4s ease-in-out infinite alternate;
+}
+
+.markdown-body blockquote {
+  animation: borderPulse 3s ease-in-out infinite alternate;
+}
+
+@supports (-webkit-background-clip: text) {
+  .markdown-body h2, .markdown-body h3 {
+    background: linear-gradient(90deg, #0369a1, #047857, #b45309, #0369a1);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shineMove 6s linear infinite, floaty 3.5s ease-in-out infinite alternate;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .markdown-body > *, .markdown-body img[src$=".gif"] { animation: none; }
+  .markdown-body > *, .markdown-body img, .markdown-body h2, .markdown-body h3, .markdown-body blockquote { animation: none; }
 }
