@@ -2,7 +2,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg" width="180" alt="Universidad Autónoma del Estado de México" />
 </p>
 
-<p align="center"><img src="assets/banner-ciudad.svg" width="100%" alt="Ciudad Inteligente — Realidad Aumentada · UAEMEX Valle de Chalco" />
+<p align="center"><img src="assets/banner-ciudad.svg" width="100%" alt="Ciudad Inteligente — Realidad Aumentada · UAEMEX Valle de Chalco" /></p>p>
 
 ## Ciudad Inteligente + Realidad Aumentada (RA)
 
@@ -12,7 +12,7 @@
 <p align="center">
 <a href="https://uaemex-cux-cdmx-ia-ra.netlify.app"><img src="https://img.shields.io/badge/Ver_proyecto-0B5A2E?style=for-the-badge" alt="Ver proyecto"></a>
 </p>
-<p align="center"><img src="assets/ciudad.gif" width="560" style="max-width:100%;border-radius:12px;" alt="Ciudad Inteligente en movimiento" />
+<p align="center"><img src="assets/ciudad.gif" width="560" style="max-width:100%;border-radius:12px;" alt="Ciudad Inteligente en movimiento" /></p>p>
 
 > ### Ciudad inteligente UAEMEX Valle de Chalco: energía, movilidad, agua, residuos y alumbrado conectados por datos y sensores. La ciudad mide, entiende y responde en tiempo real. Con RA, ves cómo funciona en 3D frente a ti.
 
