@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0369a1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script type="importmap">
+      { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      } }
+    </script>
+    <style>
+      #escena3d { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 9998; pointer-events: none; }
+      #pet-fallback { position: fixed; z-index: 9999; pointer-events: none; font-size: 44px; left: 6%; top: 70%; animation: patrol 26s ease-in-out infinite; }
+      #bus-fallback { position: fixed; z-index: 9998; pointer-events: none; font-size: 40px; bottom: 6px; left: 0; animation: drive 24s linear infinite; }
+      @keyframes patrol {
+        0% { left: 6%; top: 70%; } 25% { left: 78%; top: 58%; }
+        50% { left: 66%; top: 14%; } 75% { left: 12%; top: 26%; }
+        100% { left: 6%; top: 70%; }
+      }
+      @keyframes drive { from { transform: translateX(-15vw); } to { transform: translateX(112vw); } }
+      #portada { position: fixed; inset: 0; z-index: 20000; background: #000; display: flex; align-items: center; justify-content: center; transition: opacity .7s ease; }
+      #portada video { width: 100%; height: 100%; object-fit: contain; }
+      #portada.fuera { opacity: 0; pointer-events: none; }
+      @media (prefers-reduced-motion: reduce) { #escena3d, #pet-fallback, #bus-fallback { display: none; } }
+    </style>
+  </head>
+  <body>
+    <div id="portada" aria-hidden="true">
+      <video id="portada-video" autoplay muted playsinline preload="auto" src="{{ '/assets/intro.mp4' | relative_url }}"></video>
+    </div>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.title and site.github.is_project_page %}
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+      {{ content }}
+    </div>
+    <canvas id="escena3d" aria-hidden="true"></canvas>
+    <div id="pet-fallback" style="display:none" aria-hidden="true">🤖</div>
+    <div id="bus-fallback" style="display:none" aria-hidden="true">🚌</div>
+    <script>
+      // Chispitas al tocar el botón «Ver proyecto»
+      function burst(x, y) {
+        var chars = ['✦', '✨', '⭐', '✧'];
+        for (var i = 0; i < 16; i++) {
+          var s = document.createElement('span');
+          s.textContent = chars[i % chars.length];
+          s.style.cssText = 'position:fixed;left:' + x + 'px;top:' + y + 'px;font-size:' + (12 + Math.random() * 14) + 'px;color:' + (i % 2 ? '#d9a441' : '#0e7490') + ';z-index:10001;pointer-events:none;';
+          document.body.appendChild(s);
+          var ang = Math.random() * Math.PI * 2, dist = 46 + Math.random() * 80;
+          var dx = Math.cos(ang) * dist, dy = Math.sin(ang) * dist;
+          s.animate([
+            { transform: 'translate(-50%,-50%) rotate(0deg)', opacity: 1 },
+            { transform: 'translate(' + dx + 'px,' + dy + 'px) rotate(' + (Math.random() * 260 - 130) + 'deg)', opacity: 0 }
+          ], { duration: 650 + Math.random() * 350, easing: 'cubic-bezier(.17,.67,.35,1)' }).onfinish = (function (el) { return function () { el.remove(); }; })(s);
+        }
+      }
+      document.addEventListener('pointerdown', function (e) {
+        var a = e.target && e.target.closest ? e.target.closest('a[href*="netlify.app"]') : null;
+        if (a) burst(e.clientX, e.clientY);
+      }, true);
+      document.addEventListener('click', function (e) {
+        var a = e.target && e.target.closest ? e.target.closest('a[href*="netlify.app"]') : null;
+        if (!a) return;
+        e.preventDefault();
+        var href = a.href;
+        setTimeout(function () { window.location.href = href; }, 480);
+      }, true);
+      // Vigilante: si el 3D no arrancó en 9 s, se muestran las figuras de respaldo
+      setTimeout(function () {
+        if (!window.__tresOk && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          var p = document.getElementById('pet-fallback');
+          var b = document.getElementById('bus-fallback');
+          if (p) p.style.display = 'block';
+          if (b) b.style.display = 'block';
+        }
+      }, 9000);
+    </script>
+    <script>
+      // Portada de inicio: el video se quita solo al terminar (o con un toque)
+      (function () {
+        var p = document.getElementById('portada');
+        var v = document.getElementById('portada-video');
+        if (!p || !v) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { p.remove(); return; }
+        function fuera() {
+          if (!p) return;
+          p.classList.add('fuera');
+          var q = p; p = null;
+          setTimeout(function () { q.remove(); }, 800);
+        }
+        v.addEventListener('ended', fuera);
+        p.addEventListener('pointerdown', fuera);
+        setTimeout(fuera, 12000);
+        var pr = v.play && v.play();
+        if (pr && pr.catch) pr.catch(function () {});
+      })();
+    </script>
+    <script type="module" src="{{ '/assets/js/vivos.js' | relative_url }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
