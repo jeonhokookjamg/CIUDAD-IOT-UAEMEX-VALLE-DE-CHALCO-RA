@@ -6,3 +6,46 @@
 .markdown-body > h1 {
   display: none;
 }
+
+/* Animaciones tipo presentación: cada bloque entra con un fundido hacia arriba */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.markdown-body > * {
+  animation: fadeUp 0.8s ease both;
+}
+.markdown-body > *:nth-child(3) { animation-delay: 0.10s; }
+.markdown-body > *:nth-child(4) { animation-delay: 0.20s; }
+.markdown-body > *:nth-child(5) { animation-delay: 0.30s; }
+.markdown-body > *:nth-child(6) { animation-delay: 0.40s; }
+.markdown-body > *:nth-child(7) { animation-delay: 0.50s; }
+.markdown-body > *:nth-child(8) { animation-delay: 0.60s; }
+.markdown-body > *:nth-child(9) { animation-delay: 0.70s; }
+.markdown-body > *:nth-child(10) { animation-delay: 0.80s; }
+.markdown-body > *:nth-child(11) { animation-delay: 0.90s; }
+.markdown-body > *:nth-child(12) { animation-delay: 1.00s; }
+
+/* Al bajar la página, cada bloque aparece como en una presentación (Chrome/Android) */
+@supports (animation-timeline: view()) {
+  .markdown-body > * {
+    animation: fadeUp linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+    animation-delay: 0s;
+  }
+}
+
+/* Movimiento suave y continuo en las imágenes animadas */
+@keyframes floaty {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+.markdown-body img[src$=".gif"] {
+  animation: floaty 3.5s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .markdown-body > *, .markdown-body img[src$=".gif"] { animation: none; }
+}
